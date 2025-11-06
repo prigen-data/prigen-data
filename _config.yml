@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Prigen
 description: A documentation for Prigen dataset
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/prigen-data" # the subpath of your site, e.g. /blog
 url: "https://apclbuglocalizer.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
   #repository: apclbuglocalizer/apclbuglocalizer # for github-metadata
 
