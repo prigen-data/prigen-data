@@ -9,8 +9,7 @@ permalink: /
 
 # Welcome to Prigen  
 {: .fs-9 }
-
-A Fine-Grained Annotation of Privacy Behaviors in Android Apps  
+Dataset of Fine-grained Annotations of Privacy Behaviors in Android Applications
 {: .fs-6 .fw-300 }
 
 <a href="https://zenodo.org/records/17523926" class="btn btn-primary fs-5 mb-4 mb-md-0 mr-2" target="_blank" rel="noopener noreferrer">
@@ -19,44 +18,37 @@ A Fine-Grained Annotation of Privacy Behaviors in Android Apps
 
 ---
 
-**Prigen** is a curated dataset containing **fine-grained human annotations of privacy behaviors in Android applications**.  
-Each annotation identifies three source code statements most relevant to a given privacy behavior—providing a detailed understanding of how and why applications use personal information.
-
-This dataset supports research in **feature localization**, **retrieval-augmented generation (RAG)**, and **model attention alignment**, where accurate mappings between human reasoning and model focus are crucial.  
-While previous datasets have annotated Android privacy behaviors only at the *function level*, **Prigen** is the first to provide **statement-level annotations**.
+This dataset contains **fine-grained human annotations of privacy behaviors in Android applications**. Each annotation identifies three source code statements most relevant to a given privacy behavior. This dataset supports research in **feature localization**, **retrieval-augmented generation (RAG)**, and **model attention alignment**. 
 
 ---
 
 ## Dataset Overview
 
-- **2,426 Android methods** annotated by **18 professional programmers** via Prolific  
-- **259 methods** with *double annotations* (two independent annotators)  
+- **2,426 Android methods** annotated by **18 software developers** via Prolific  
+- **259 methods** with *two annotations* (two independent annotators)  
 - Each annotation includes **three code statements** most relevant to the privacy behavior  
 - Focused on four *“purpose”* categories from Jain *et al.* (2022)  
-- Distributed as `.pkl` files for easy loading in Python  
 
 | File | Description |
 |------|--------------|
-| `xxx.pkl` | All annotated Android methods (2,426 total) |
-| `yyy.pkl` | Methods with double annotations |
-| `zzz.pkl` | IDs of functions with double annotations |
+| `prigen_data_one_annotation.pkl` | All methods with one annotation |
+| `prigen_data_two_annotation.pkl` | Methods with two annotations |
+| `prigen_two_annotation_fids.pkl` | IDs of functions with two annotations |
 
 ---
 
 ## Key Findings
 
 - **Expressions** are the most common statement type linked to privacy behaviors, followed by **declarations** and **if statements**  
-- The **privacy label type** (purpose) has minimal influence on statement relevance  
-- **Double annotations** enable comparison between **human and model attention**  
+- The **privacy label type** has minimal influence on statement relevance  
 
 ---
 
 ## About Prigen
 
-**Prigen** is developed by [Chia-Yi Su](https://chiayisu.github.io/) and [Collin McMillan](https://sdf.org/~cmc/) at the **University of Notre Dame**.  
-The project aims to provide open, fine-grained datasets for advancing software engineering and AI research.
+**Prigen** dataset is curated by [Chia-Yi Su](https://chiayisu.github.io/), [Aakash Bansal](https://aakashba.github.io/), [Vijayanta Jain](https://sites.google.com/maine.edu/vijayantajain/home), [
+Sepideh Ghanavati](https://www.sepidehghanavati.com/), [Sai Teja Peddinti](https://sites.google.com/site/psaiteja/home), and [Collin McMillan](https://sdf.org/~cmc/). The project aims to provide open, fine-grained datasets for advancing software engineering and AI research.
 
-This dataset is **original** and **has not been used in any published paper**.
 
 If you have questions or would like to collaborate, please contact us.
 
@@ -65,13 +57,14 @@ If you have questions or would like to collaborate, please contact us.
 ## Citation
 ```bibtex
 @article{su2025prigen,
-  title     = {Prigen: A Fine-Grained Dataset of Privacy Behaviors in Android Apps},
-  author    = {Chia-Yi Su and Collin McMillan},
+  title     = {Dataset of Fine-grained Annotations of Privacy Behaviors in Android Applications},
+  author    = {Chia-Yi Su, Aakash Bansal, Vijayanta Jain, Sepideh Ghanavati, Sai Teja Peddinti, and Collin McMillan},
   journal   = {xxx},
   volume    = {xxx},
   pages     = {xxx},
   year      = {2025}
 }
+```
 ---
 
 

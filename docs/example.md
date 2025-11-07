@@ -29,8 +29,8 @@ nav_order: 3
   - Statements involving function calls or mathematical operations are likely to implement privacy behaviors.  
   - For `if_stmt`, statements inside the block are more likely to involve privacy behaviors.  
 
-2. ** Statement distributions have only little effect on privacy label:**  
-  - Statement distribution is not heavily affected by the privacy label for a single method.  
+2. **Privacy label has little effect on the order of statement categories**  
+  - Order of statement categories is not heavily affected by the privacy label for a single method.  
   - Annotators may need to consider method call graphs or dependencies for accurate labeling.  
   - Knowing data is read by a third-party API is insufficient without considering dependent method calls.
 

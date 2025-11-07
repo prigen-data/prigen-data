@@ -16,6 +16,20 @@ nav_order: 3
 
 ---
 
+
+### Privacy Behaviors 
+
+We describe each privacy behavior as follows:
+
+| Privacy Behavior  | Description                                                       |
+|------------------|-------------------------------------------------------------------|
+| **Advertisement** | When the personal data is being used for advertisement services. |
+| **Functionality** | When the personal data is being used for the functionality of the app. |
+| **Analytics**     | When the personal data is being used for analytics in or outside the app. |
+| **Other**         | When the personal data is being used for other/unknown purposes. |
+
+
+
 ### Data Structure
 
 The dataset is organized as a **dictionary**, where each key is a **unique function ID** and the value is another dictionary containing:
