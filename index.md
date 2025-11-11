@@ -61,7 +61,7 @@ If you have questions or would like to collaborate, please contact us.
   doi = {10.5281/zenodo.1234},
   month = {11},
   title = {Dataset of Fine-grained Annotations of Privacy Behaviors in Android Applications},
-  url = {[https://github.com/github-linguist/linguist](https://zenodo.org/records/17523926)},
+  url = {https://zenodo.org/records/17523926},
   version = {0.1.0},
   year = {2025}
 }
