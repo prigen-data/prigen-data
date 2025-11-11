@@ -56,13 +56,14 @@ If you have questions or would like to collaborate, please contact us.
 
 ## Citation
 ```bibtex
-@article{su2025prigen,
-  title     = {Dataset of Fine-grained Annotations of Privacy Behaviors in Android Applications},
-  author    = {Chia-Yi Su, Aakash Bansal, Vijayanta Jain, Sepideh Ghanavati, Sai Teja Peddinti, and Collin McMillan},
-  journal   = {xxx},
-  volume    = {xxx},
-  pages     = {xxx},
-  year      = {2025}
+@software{su2025prigen,
+  author = {Chia-Yi Su, Aakash Bansal, Vijayanta Jain, Sepideh Ghanavati, Sai Teja Peddinti, and Collin McMillan},
+  doi = {10.5281/zenodo.1234},
+  month = {11},
+  title = {Dataset of Fine-grained Annotations of Privacy Behaviors in Android Applications},
+  url = {[https://github.com/github-linguist/linguist](https://zenodo.org/records/17523926)},
+  version = {0.1.0},
+  year = {2025}
 }
 ```
 ---
